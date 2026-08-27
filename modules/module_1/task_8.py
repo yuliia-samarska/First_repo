@@ -1,4 +1,4 @@
-#функція input
+# Функція input
 
 age = input("Скільки Вам років? ")
 age = int(age)
