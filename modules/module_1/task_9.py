@@ -11,9 +11,13 @@ num_glasses = int(input("Введіть кількість стаканчикі�
 num_coffee_packs = int(input("Введіть кількість кавових стіків: "))
 
 # Обчислення загальної вартості
+
 total_cost = num_palianytsias * price_per_palianytsia + \
              num_glasses * price_per_glass + \
              num_coffee_packs * price_per_coffee_pack
+
+# Тут символ зворотнього слешу (\) дозволяє розбити один рядок на декілька для підвищення читабельності.
+# Таким способом ігнорується символ переносу рядка і Python розглядає ці 3 рядки як один рядок.
 
 # Визначаємо кількість повних гривень і копійок
 total_hryvnia = int(total_cost)
